@@ -1,0 +1,71 @@
+/* a minimalist set of CSS resets */
+/* adjust typography defaults */
+body {
+  background-color: #FAF9F6;
+  margin: 1rem;
+  font-family: "Indie Flower", "Sofia", sans-serif;
+  line-height: 1.5;
+  font-size: 120%;
+}
+
+h1, h3, a {
+  color: #446F43;
+}
+
+p, div {
+  color: #99B898;
+}
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: 30em;
+  max-width: 100%;
+  border-radius: 20%;
+}
+
+a:link { 
+  text-decoration: none; 
+}
+
+a:visited { 
+  text-decoration: none; 
+}
+
+a:hover { 
+  text-decoration: none; 
+  color: #EEC290;
+}
+
+a:active { 
+  text-decoration: none; 
+}
+
+.pic {
+  border: solid;
+  padding-left: 2em;
+  padding-bottom: 2em;
+}
+
+button {
+  background-color: #FAF9F6;
+  color: #EEC290;
+  border: 2px solid #EEC290;
+  border-radius: 25%;
+  font-family: "Indie Flower", "Sofia", sans-serif;
+  font-size: 130%;
+}
+
+.button:hover {
+  background-color: #F3E7B5;
+}
